@@ -10,8 +10,8 @@ int main() {
     cout << "1." << fixed << setprecision(4) << double(4/3*(M_PI)*r*r) << endl;
 
     double a = 24.95 ;
-    double b = a*(1-0.4) + 3*60;
-    long long c = 75*(59*60)/2;
+    double b = a*(1-0.4) + 3;
+    long long c = 75*59;
     cout << "2." << fixed << setprecision(2) << double (a + b) << " USD " << c << " CENT " << endl;
 
     int hour = 6;
