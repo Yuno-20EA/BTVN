@@ -32,6 +32,4 @@ int main() {
     cout << "\n------------------\n\n";
     
     drawGrid(4, 4); 
-
-    return 0;
 }
