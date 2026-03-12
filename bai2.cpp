@@ -18,8 +18,8 @@ int main() {
     long long minutes = (total_s_gmt ) / 60;
 
     cout << days << endl;
-    cout << fixed << setprecision(10) << hours << endl;
-    cout << fixed << setprecision(10) << minutes << endl;
+    cout << fixed << setprecision(12) << hours << endl;
+    cout << fixed << setprecision(12) << minutes << endl;
     cout << total_s_gmt << endl;
 
 }
