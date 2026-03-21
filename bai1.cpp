@@ -1,7 +1,6 @@
 #include <iostream>
 #include <iomanip>
 
-#define ll long long
 
 using namespace std;
 
