@@ -16,13 +16,3 @@ int main() {
     cout << "+ - - - -";
     cout << " +\n";
 }
-    printBorder(cols);
-}
-
-int main() {
-    drawGrid(2, 2); 
-    
-    cout << "\n------------------\n\n";
-    
-    drawGrid(4, 4); 
-}
