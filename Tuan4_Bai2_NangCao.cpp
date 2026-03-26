@@ -12,8 +12,8 @@ int main() {
 
     LineSegment arr[4] = {dt1,dt2,dt3,dt4};
 
-    LineSegment max = arr[0];
-    LineSegment min = arr[0];
+    LineSegment maxLine = arr[0];
+    LineSegment minLine = arr[0];
 
     cout << "Danh sach doan thang:" << endl;
     for(int i = 0; i < 4; i++) {
