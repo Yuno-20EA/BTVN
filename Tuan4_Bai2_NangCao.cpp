@@ -21,7 +21,14 @@ int main() {
         arr[i].display();
         cout << endl;
     }
-
+    for (int i = 0; i < 4; i++) {
+        if (arr[i].length()>maxLine.length()) {
+            maxLine = arr[i];
+        }
+        else if (arr[i].length()<minLine.length()) {
+            minLine = arr[i];
+        }
+    }
     cout << "\nDoan thang dai nhat: ";
     max.display();
     cout << endl;
